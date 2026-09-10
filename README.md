@@ -1,18 +1,18 @@
 # Appliance Energy Consumption Portal (T01 a)
 
-**Unit**: COS30045 Data Visualisation[cite: 3, 5]  
-**Institution**: Swinburne University of Technology[cite: 4, 5]  
-**Author**: [Your Name] ([Your Student ID])  
-**Academic Year**: 2026[cite: 5]  
-**Live Site**: [https://t01-a-seven.vercel.app/](https://t01-a-seven.vercel.app/)[cite: 2]  
-**Demonstration Scope**: Sign Off Demonstration 1 (T01, T02, T03)[cite: 1, 2, 5]
+**Unit**: COS30045 Data Visualisation  
+**Institution**: Swinburne University of Technology 
+**Author**: [YanHanWONG] ([104392138])  
+**Academic Year**: 2026
+**Live Site**: [https://t01-a-seven.vercel.app/](https://t01-a-seven.vercel.app/)
+**Demonstration Scope**: Sign Off Demonstration 1 (T01, T02, T03)
 
 ---
 
 ## 1. Project Overview
-This repository contains a demonstration website developed for **Task T01 (a)**[cite: 1, 2]. The project serves as an introductory web baseline and hosting environment to showcase interactive data visualisations built using HTML, CSS, JavaScript, and D3.js across the semester[cite: 1, 3]. 
+This repository contains a demonstration website developed for **Task T01 (a)**[cite: 1, 2]. The project serves as an introductory web baseline and hosting environment to showcase interactive data visualisations built using HTML, CSS, JavaScript, and D3.js across the semester.
 
-The placeholder content focuses on appliance energy ratings, screen technologies, and consumption patterns across the Australian market[cite: 1, 3].
+The placeholder content focuses on appliance energy ratings, screen technologies, and consumption patterns across the Australian market.
 
 ---
 
@@ -20,8 +20,8 @@ The placeholder content focuses on appliance energy ratings, screen technologies
 
 * **Three Dedicated Pages**:
   * `index.html`: Home page displaying national energy context, Australian appliance consumption statistics (~33% domestic power share), and the GEMS standard.
-  * `televisions.html`: Detailed sector page examining screen technology distributions (LCD, LED, OLED), size trends (55"-65"), and power benchmarks[cite: 1, 2].
-  * `about.html`: Contextual information about the COS30045 unit, technical implementation, and future D3.js visualisations[cite: 1, 3].
+  * `televisions.html`: Detailed sector page examining screen technology distributions (LCD, LED, OLED), size trends (55"-65"), and power benchmarks.
+  * `about.html`: Contextual information about the COS30045 unit, technical implementation, and future D3.js visualisations.
 * **Client-Side JavaScript Navigation**:
   * `script.js` intercepts page requests to handle navigation across the 3 HTML files programmatically.
   * Detects active URLs dynamically and highlights the current page on the navigation bar.
