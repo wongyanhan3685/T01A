@@ -1,69 +1,47 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Televisions - Appliance Energy Consumption</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appliance Energy Consumption | Televisions</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header>
-    <nav>
-      <img src="images/PowerIcon.png" alt="Power Logo" id="logo" onclick="goHome()">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="televisions.html" class="active">Televisions</a></li>
-        <li><a href="about.html">About Us</a></li>
+    <nav class="navbar">
+      <a href="index.html" class="logo-link">
+        <img id="power-logo" src="images/PowerIcon.png" alt="Power Logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-item" data-page="index.html">Home</a></li>
+        <li><a href="televisions.html" class="nav-item" data-page="televisions.html">Televisions</a></li>
+        <li><a href="about.html" class="nav-item" data-page="about.html">About Us</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Television Energy Consumption</h1>
-    <p>Modern televisions vary widely in energy use. 
-       LCD and LED models are more efficient than older plasma screens. 
-       On average, Australian households spend around 5–10% of their electricity 
-       on entertainment devices, with televisions being the largest contributor.</p>
+    <h1>Television Energy Efficiency Analysis</h1>
+    <p>Television energy consumption in Australia is directly impacted by display technology and physical panel dimensions.</p>
+
+    <div class="info-cards">
+      <div class="card">
+        <div class="card-title">Dominant Tech</div>
+        <div class="card-desc">LCD (LED) accounts for over 80% of registered market models.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Popular Sizes</div>
+        <div class="card-desc">55" and 65" panels represent the highest sales frequency.</div>
+      </div>
+    </div>
+
+    <h2>Interactive Visualisation Placeholder</h2>
+    <p>Interactive D3.js visualisations mapping screen size versus power draw (watts) will be integrated here in subsequent tutorial tasks.</p>
   </main>
 
   <footer>
-    <p>© 2026 Yan Han | GenAI assisted</p>
+    <p>&copy; 2026 YanHanWONG 104392138 | All rights reserved. | GenAI Acknowledgement: Code scaffolded using GitHub Copilot / LLM assistance.</p>
   </footer>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Televisions - Appliance Energy Consumption</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <header>
-    <nav>
-      <img src="images/PowerIcon.png" alt="Power Logo" id="logo" onclick="goHome()">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="televisions.html" class="active">Televisions</a></li>
-        <li><a href="about.html">About Us</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h1>Television Energy Consumption</h1>
-    <p>Modern televisions vary widely in energy use. 
-       LCD and LED models are more efficient than older plasma screens. 
-       On average, Australian households spend around 5–10% of their electricity 
-       on entertainment devices, with televisions being the largest contributor.</p>
-  </main>
-
-  <footer>
-    <p>© 2026 Yan | GenAI assisted</p>
-  </footer>
-</body>
-</html>
->>>>>>> eb62b3d6c9c7adddacb6acd7dab2254916dcc823
