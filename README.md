@@ -10,7 +10,7 @@
 ---
 
 ## 1. Project Overview
-This repository contains a demonstration website developed for **Task T01 (a)**[cite: 1, 2]. The project serves as an introductory web baseline and hosting environment to showcase interactive data visualisations built using HTML, CSS, JavaScript, and D3.js across the semester.
+This repository contains a demonstration website developed for **Task T01 (a)**. The project serves as an introductory web baseline and hosting environment to showcase interactive data visualisations built using HTML, CSS, JavaScript, and D3.js across the semester.
 
 The placeholder content focuses on appliance energy ratings, screen technologies, and consumption patterns across the Australian market.
 
