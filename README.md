@@ -38,6 +38,7 @@ The placeholder content focuses on appliance energy ratings, screen technologies
 ## 3. Repository Structure
 
 ```text
+
 ├── images/
 │   └── PowerIcon.png     # Power logo asset
 ├── index.html            # Home page
@@ -46,6 +47,9 @@ The placeholder content focuses on appliance energy ratings, screen technologies
 ├── style.css             # Unified styling matching logo palette
 ├── script.js             # Navigation swapping and active state detection
 └── README.md             # Documentation and GenAI reflection
+
+```
+
 
 ## 4. Generative AI & GitHub Copilot Reflection
 
