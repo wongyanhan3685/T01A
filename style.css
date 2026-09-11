@@ -180,11 +180,16 @@ main.analysis-container {
 .badge {
   background-color: var(--primary-green);
   color: #ffffff;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: bold;
-  padding: 0.25rem 0.6rem;
+  padding: 0.35rem 0.75rem;
   border-radius: 4px;
   text-transform: uppercase;
+  white-space: nowrap;       
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;             
 }
 
 .badge-optional {
